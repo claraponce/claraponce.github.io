@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Clara Ponce Grosso
+layout: landing
+title: Psicoterapia de Parejas
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
 image: assets/images/header.jpg
 nav-menu: true
@@ -13,12 +13,8 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Psicoterapia</h2>
+			<h2>Psicoterapia de Parejas</h2>
 		</header>
-		<header class="major">
-			<h3>Parejas</h3>
-		</header>
-
 		<p><span class="image left"><img src="{% link assets/images/pareja1.png %}" alt="" /></span>La pareja es una figura de apoyo incondicional durante los momentos difíciles. Sin embargo, la misma relación de pareja puede estar pasando por una crisis que haga a las partes implicadas experimentar malestar o incluso tener dudas respecto al proyecto de vida en común. Una pareja puede salir fortalecida o debilitada tras una situación de crisis.</p>
 
 		<p><span class="image right"><img src="{% link assets/images/pareja2.png %}" alt="" /></span>La psicoterapia puede funcionar como una forma de reencuentro con tu pareja. Puede ser una oportunidad para aprender a funcionar juntos/as de nuevo, conectar como compañeros/as de vida y redescubriros como amantes. En el caso de que la pareja decida dar por terminada la relación, también puede darse la necesidad de cerrar el episodio con la ayuda de un profesional, sobre todo cuando han formado una familia.</p>
