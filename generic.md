@@ -1,19 +1,43 @@
 ---
 layout: post
 title: Clara Ponce Grosso
-description: Lorem ipsum dolor est
-image: assets/images/foto.png
+description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+image: assets/images/header.jpg
 nav-menu: true
 ---
 
-Soy Clara, una joven gaditana que emigró a Madrid con el fin de vivir, como fuera, de su pasión por la psicología. Desde muy pequeña tuve la inquietud de ayudar a quienes lo pasaban mal por dificultades de diversa índole: bullying, baja autoestima, problemas familiares y/o problemas de salud mental. Casi sin darme cuenta, elegí comenzar mi camino en esta bella profesión que tanto me ha aportado a nivel personal.
+<!-- Main -->
+<div id="main">
 
-Me gradué en Psicología por la Universidad de Sevilla, donde elegí el itinerario en Psicología Clínica, convencida en que algo podría yo hacer por mejorar la calidad de vida de las personas. Me habilité como Psicóloga General Sanitaria por la Universidad Pontificia de Comillas, Madrid. En esta institución logré definirme como profesional, formándome en los distintos enfoques psicológicos de la mano de grandes profesionales. Aprendí mucho sobre la Terapia Cognitivo-Conductual, la Terapia Familiar Sistémica y la Terapia Psicodinámica. En esta misma Universidad, me especialicé en Psicoterapia Humanista-Experiencial y Terapia Focalizada en la Emoción (TFE). La TFE es una terapia de duración breve que ha mostrado ser efectiva en el tratamiento de trastornos de ansiedad y del estado del ánimo, así como en problemas emocionales por baja autoestima, duelos, rupturas amorosas, problemas de pareja, etc. Actualmente me estoy formando también en Terapia EMDR en el prestigioso Instituto EMDR España. Las aplicaciones clínicas del EMDR son cada vez más investigadas con excelentes resultados. Se trata de una técnica especialmente eficaz para la superación de experiencias vitales estresantes y traumáticas y los síntomas asociados (dolor crónico, ansiedad, fobias, baja autoestima, disfunciones sexuales, etc.).
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>Psicoterapia</h2>
+		</header>
+		<header class="major">
+			<h3>Parejas</h3>
+		</header>
 
-Creo que la clave del éxito en terapia se basa en dos aspectos: el más importante es que se dé una buena relación entre terapeuta y paciente; el segundo factor es que las técnicas empleadas se adapten a cada persona. Es por esto último que soy psicoterapeuta integradora. He integrado el conocimiento y la experiencia adquiridos en los últimos años para ofrecerte un servicio completo, con una variedad de herramientas que espero que te ayuden en tu desarrollo personal.
+		<p><span class="image left"><img src="{% link assets/images/pareja1.png %}" alt="" /></span>La pareja es una figura de apoyo incondicional durante los momentos difíciles. Sin embargo, la misma relación de pareja puede estar pasando por una crisis que haga a las partes implicadas experimentar malestar o incluso tener dudas respecto al proyecto de vida en común. Una pareja puede salir fortalecida o debilitada tras una situación de crisis.</p>
 
-Aparte de ser psicóloga, soy profesora de Yoga y Mindfulness, certificada por la Universidad Europea Miguel de Cervantes, la Yoga Alliance, la European Yoga Federation, la Federación Española de Yoga Profesional y la FEDEF. Esta disciplina oriental llegó a mi vida para quedarse, aportándome muchas enseñanzas que ahora quiero compartir contigo. Yoga puede servirte como forma de autoconocimiento, pero conviene aclarar que no es un proceso terapéutico sino una práctica que te puede aportar muchos beneficios físicos y psicológicos si la incorporas a tu rutina diaria de una u otra forma. 
+		<p><span class="image right"><img src="{% link assets/images/pareja2.png %}" alt="" /></span>La psicoterapia puede funcionar como una forma de reencuentro con tu pareja. Puede ser una oportunidad para aprender a funcionar juntos/as de nuevo, conectar como compañeros/as de vida y redescubriros como amantes. En el caso de que la pareja decida dar por terminada la relación, también puede darse la necesidad de cerrar el episodio con la ayuda de un profesional, sobre todo cuando han formado una familia.</p>
 
-Antes de volcarme en mi propio proyecto, trabajé como psicóloga tanto en gabinetes privados como en instituciones públicas destinadas a colectivos en riesgo de vulnerabilidad social (sin hogar, migrantes...). Esto me permitió acercarme a realidades muy diversas y aprender a acompañar de distintas formas. En cuanto al yoga, he colaborado con distintos equipos especializados en otras ramas de la salud y de la actividad física y el deporte.
+		<p>Si has terminado una relación amorosa y te está costando superarlo sería buena idea acudir a terapia individual. Pasar por un duelo amoroso no es nada fácil.</p>
 
-<img src="{% link assets/images/firma.png %}" alt="" data-position="center" />
+		<p>A continuación te presento los problemas más frecuentes a los que suelo atender en estas sesiones:
+		<ul>
+			<li>Disfunciones sexuales</li>
+			<li>Problemas de comunicación</li>
+			<li>Gestión de conflictos</li>
+			<li>Ruptura o separación</li>
+			<li>Celos</li>
+			<li>Infidelidad</li>
+			<li>Rutina y distanciamiento</li>
+			<li>Relaciones tóxicas</li>
+			<li>Dependencia emocional</li>
+		</ul>A veces no sabemos si necesitamos acudir a terapia individual o de parejas. Si necesitas más información o quieres concertar una cita, contacta conmigo y lo averiguamos.
+		</p>
+	</div>
+</section>
+</div>
