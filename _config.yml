@@ -6,7 +6,8 @@ description: ¡Hola! Soy Clara, psicóloga experta en ansiedad y trastornos del 
 baseurl:  # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
+street_address: C/ Vallehermoso, 20, Bajo Derecha, 28015 (Madrid)
+street_address2: C/Santa Engracia, 25, Bajo Derecha. 28010 (Madrid)
 city: Nashville
 state: TN
 zip_code: 55555
