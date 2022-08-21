@@ -8,11 +8,11 @@ url: # the base hostname & protocol for your site
 author:
 street_address: C/ Vallehermoso, 20, Bajo Derecha, 28015 (Madrid)
 street_address2: C/Santa Engracia, 25, Bajo Derecha. 28010 (Madrid)
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+city: Madrid
+state: Madrid
+zip_code: 28010
+country: España
+phone: 623 137 090
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -23,14 +23,8 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  Instagram: https://www.instagram.com/claraponce.psicologia/
+  LinkedIn: https://www.linkedin.com/in/clara-ponce-grosso-2a1027150/
 
 # build settings
 markdown: kramdown
