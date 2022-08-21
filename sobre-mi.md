@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Clara Ponce Grosso
 layout: landing
-description: Lorem ipsum dolor est
+description: Más sobre mí
 image: assets/images/foto.png
 nav-menu: true
 ---

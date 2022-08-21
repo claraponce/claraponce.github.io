@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Psicoterapia de Parejas
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Reencuentra a tu pareja'
 image: assets/images/header.jpg
 nav-menu: true
 ---

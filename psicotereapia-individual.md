@@ -1,7 +1,7 @@
 ---
 title: Psicoterapia individual
 layout: landing
-description: 'La terapia individual es un espacio para reflexionar'
+description: 'La terapia individual es un espacio para reflexionar sobre lo que verdaderamente te preocupa y encontrar soluciones a corto, medio y largo plazo'
 image: assets/images/header.jpg
 nav-menu: true
 ---
