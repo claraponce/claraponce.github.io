@@ -17,7 +17,7 @@ nav-menu: true
     <div class="box alt">
         <div class="row 50% uniform">
             <div class="4u"><span class="image fit"></span></div>
-            <div class="4u"><span class="image fit"><img src="{% link assets/images/firma.jpg %}" alt="" /></span></div>
+            <div class="4u"><span class="image fit"><img src="{% link assets/images/firma.png %}" alt="" /></span></div>
             <div class="4u$"><span class="image fit"></span></div>
         </div>
     </div>
