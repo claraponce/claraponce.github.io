@@ -4,13 +4,15 @@ title: Preguntas frecuentes
 description: 'Encuentra las respuestas que buscas'
 image: assets/images/header.jpg
 nav-menu: true
+show_tile: true
+order: 4
 ---
 
 <!-- Main -->
 <div id="main">
 
 <!-- One -->
-<section id="four">
+<section id="one">
 	<div class="inner">
 		<header class="major">
 			<h2>¿Cuándo solicitar atención psicológica?</h2>

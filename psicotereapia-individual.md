@@ -4,13 +4,14 @@ layout: landing
 description: 'Encuéntrate a ti mismo'
 image: assets/images/header.jpg
 nav-menu: true
+order: 1
 ---
 
 <!-- Main -->
 <div id="main">
 
 <!-- One -->
-<section id="two">
+<section id="one">
 	<div class="inner">
 		<p><span class="image left"><img src="{% link assets/images/individual.jpg %}" alt="" /></span>La terapia individual es un espacio para reflexionar sobre lo que verdaderamente te preocupa y encontrar soluciones a corto, medio y largo plazo. Te interesa recurrir a este servicio si quieres mejorar tu relación con uno o varios problemas asociados contigo mismo/a o con la calidad de tus relaciones con los demás.</p>
 		<p>A continuación te presento los problemas más frecuentes a los que suelo atender en estas sesiones:

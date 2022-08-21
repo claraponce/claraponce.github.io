@@ -3,9 +3,10 @@ title: Sobre Mí
 layout: post
 description: Descubre Más Sobre Mí
 nav-menu: true
+order: 3
 ---
 
-<section id="three">
+<section id="one">
 	<div class="inner">
 		<p><span class="image left"><img src="{% link assets/images/foto.png %}" alt="" /></span>Soy Clara, una joven gaditana que emigró a <b>Madrid</b> con el fin de vivir, como fuera, de su pasión por la psicología. Desde muy pequeña tuve la inquietud de ayudar a quienes lo pasaban mal por dificultades de diversa índole: bullying, baja autoestima, problemas familiares y/o problemas de salud mental. Casi sin darme cuenta, elegí comenzar mi camino en esta bella profesión que tanto me ha aportado a nivel personal.
         <br />
