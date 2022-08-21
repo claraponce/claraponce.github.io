@@ -3,7 +3,7 @@ title: Clara
 subtitle: Ponce Grosso
 email: claraponcegrossos@gmail.com
 description: ¡Hola! Soy Clara, psicóloga experta en ansiedad y trastornos del estado de ánimo. Doy terapia individual y de parejas para ayudarte a lidiar con el estrés y el malestar que generan las dificultades internas y los problemas en las relaciones personales.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road

@@ -1,6 +1,6 @@
 ---
 title: Clara Ponce Grosso
-layout: landing
+layout: post
 description: Más sobre mí
 image: assets/images/foto.png
 nav-menu: true
