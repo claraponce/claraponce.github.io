@@ -6,6 +6,7 @@ description: null
 image: assets/images/header.jpg
 author: null
 show_tile: false
+nav-menu: false
 ---
 
 <p>La psicoterapia es un espacio en el que puedes hablar de tus dificultades personales con un profesional de la psicología dispuesto/a a acompañarte y guiarte en la superación de los obstáculos que la vida te presenta. En este proceso psicólogo/a y cliente trabajan en equipo para desarrollar estrategias que favorezcan el cambio a nivel cognitivo, emocional y conductual.</p>
