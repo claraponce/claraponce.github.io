@@ -14,7 +14,15 @@ nav-menu: true
 		<p><span class="image left"><img src="{% link assets/images/yoga.png %}" alt="" /></span>Aparte de ser psicóloga, soy profesora de Yoga y Mindfulness, certificada por la Universidad Europea Miguel de Cervantes, la Yoga Alliance, la European Yoga Federation, la Federación Española de Yoga Profesional y la FEDEF. Esta disciplina oriental llegó a mi vida para quedarse, aportándome muchas enseñanzas que ahora quiero compartir contigo. Yoga puede servirte como forma de autoconocimiento, pero conviene aclarar que no es un proceso terapéutico sino una práctica que te puede aportar muchos beneficios físicos y psicológicos si la incorporas a tu rutina diaria de una u otra forma.</p>
         <p>Antes de volcarme en mi propio proyecto, trabajé como psicóloga tanto en gabinetes privados como en instituciones públicas destinadas a colectivos en riesgo de vulnerabilidad social (sin hogar, migrantes...). Esto me permitió acercarme a realidades muy diversas y aprender a acompañar de distintas formas. En cuanto al yoga, he colaborado con distintos equipos especializados en otras ramas de la salud y de la actividad física y el deporte.</p>
 	</div>
-    <img src="{% link assets/images/firma.png %}" alt="" data-position="center" />
+
+    <div class="box alt">
+        <div class="row 50% uniform">
+            <div class="4u"><span class="image fit"></span></div>
+            <div class="4u"><span class="image fit"><img src="{% link assets/images/firma.jpg %}" alt="" /></span></div>
+            <div class="4u$"><span class="image fit"></span></div>
+        </div>
+    </div>
+
 
 </section>
 </div>
