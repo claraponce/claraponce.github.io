@@ -14,15 +14,20 @@
 
     <!-- Banner -->
     <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p>{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Descubre más</a></li>
-                </ul>
+        <div class="row">
+            <div>
+                <img src="{{ 'assets/images/logo.png' | relative_url }}" alt="">
+            </div>
+            <div class="inner">
+                <header class="major">
+                    <h1>{{ page.landing-title }}</h1>
+                </header>
+                <div class="content">
+                    <p>{{ site.description }}</p>
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">Descubre más</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
