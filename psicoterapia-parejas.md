@@ -2,7 +2,7 @@
 layout: landing
 title: Psicoterapia de Parejas
 description: 'Reencuentra a tu pareja'
-image: assets/images/header.jpg
+image: assets/images/terapia-parejas.jpg
 nav-menu: true
 order: 2
 ---

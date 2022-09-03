@@ -2,7 +2,7 @@
 title: Psicoterapia individual
 layout: landing
 description: 'Encuéntrate a ti mismo'
-image: assets/images/header.jpg
+image: assets/images/terapia-individual.jpg
 nav-menu: true
 order: 1
 ---

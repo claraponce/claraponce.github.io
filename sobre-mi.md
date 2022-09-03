@@ -2,6 +2,7 @@
 title: Sobre Mí
 layout: post
 description: Descubre Más Sobre Mí
+image: assets/images/sobre-mi.jpg
 nav-menu: true
 order: 3
 ---
