@@ -2,7 +2,7 @@
 layout: landing
 title: Preguntas frecuentes
 description: 'Encuentra las respuestas que buscas'
-image: assets/images/header.jpg
+image: assets/images/faq.jpg
 nav-menu: true
 show_tile: true
 order: 4
