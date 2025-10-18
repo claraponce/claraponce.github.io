@@ -2,14 +2,14 @@
 title: Clara 
 subtitle: Ponce Grosso
 email: claraponce.psicologia@gmail.com
-description: Tu Psicóloga en Madrid y Online
+description: Tu Psicóloga en Málaga y Online
 baseurl:  # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: C/ Vallehermoso, 20, Bajo Derecha, 28015 (Madrid)
-city: Madrid
-state: Madrid
-zip_code: 28010
+street_address: C/ Eslava 14 2º, 29002 (Málaga)
+city: Málaga
+state: Málaga
+zip_code: 29002
 country: España
 phone: 623 137 090
 
