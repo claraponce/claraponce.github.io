@@ -15,11 +15,4 @@ order: 3
 		<p>Creo que la clave del éxito en terapia se basa en dos aspectos: el más importante es que se dé una buena relación entre terapeuta y paciente; el segundo factor es que las técnicas empleadas se adapten a cada persona. He integrado el conocimiento y la experiencia adquiridos en los últimos años para ofrecerte un servicio completo, con una variedad de herramientas que espero que verdaderamente te ayuden en tu desarrollo personal.</p>
 		<p>Ofrezco <b>terapia individual y de parejas</b>. Si necesitas asesoramiento no dudes en contactarme. Estaré encantada de acompañarte en lo que necesites. La forma más efectiva de contactar conmigo es vía <b>WhatsApp</b>.</p>
 	</div>
-    <div class="box alt">
-        <div class="row 50% uniform">
-            <div class="4u"><span class="image"></span></div>
-            <div class="4u"><span class="image"><img src="{% link assets/images/firma.png %}" alt="" /></span></div>
-            <div class="4u$"><span class="image"></span></div>
-        </div>
-    </div>
 </section>
