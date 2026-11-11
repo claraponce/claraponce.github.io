@@ -1,9 +1,11 @@
 ---
 layout: home
 title: Home
+seo_title: "Psicóloga en Málaga y online | Adultos y adolescentes"
+meta_description: "Clara Ponce Grosso, psicóloga en Málaga. Terapia para adultos y adolescentes, individual y de pareja, en consulta y online. Primera cita online gratis."
 landing-title: 'Hola, me llamo Clara Ponce Grosso'
 description: null
-image: assets/images/header.jpg
+image: assets/images/foto.png
 author: null
 show_tile: false
 nav-menu: false
