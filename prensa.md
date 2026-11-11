@@ -2,15 +2,20 @@
 layout: post
 title: Prensa
 seo_title: "Prensa | Psicóloga en Málaga Clara Ponce Grosso"
-meta_description: "Artículos de ABC en los que Clara Ponce Grosso, psicóloga, ha sido consultada sobre emociones, apego, envidia y bienestar."
+meta_description: "Artículos de ABC y de la revista CLARA en los que Clara Ponce Grosso, psicóloga, ha sido consultada sobre emociones, apego y bienestar."
 nav-menu: true
 show_tile: false
 order: 5
 ---
 
-<p>Algunos medios me han pedido opinión como psicóloga. Dejo aquí los artículos de ABC en los que he participado, por si te apetece leerlos. En estos textos aparezco como psicóloga del centro Cepsim, en Madrid.</p>
+<p>Algunos medios me han pedido opinión como psicóloga. Dejo aquí los artículos de ABC y de la revista CLARA en los que he participado, por si te apetece leerlos. En estos textos aparezco como psicóloga del centro Cepsim, en Madrid.</p>
 
 <ul class="press-list">
+	<li>
+		<p class="press-meta">CLARA · 9 de octubre de 2026</p>
+		<h2><a href="https://www.clara.es/bienestar/por-que-te-cuesta-tanto-tirar-cosas-que-no-te-sirven-ya-no-utilizas_49058" target="_blank" rel="noopener">Por qué te cuesta tanto tirar cosas que no te sirven y ya no utilizas: los psicólogos y neuropsicólogos coinciden</a></h2>
+		<p>Explica por qué cuesta desprenderse de objetos (recuerdos, seguridad, perfeccionismo).</p>
+	</li>
 	<li>
 		<p class="press-meta">ABC · 22 de septiembre de 2023</p>
 		<h2><a href="https://www.abc.es/bienestar/psicologia-sexo/psicologia/libros-recomiendan-psicologos-personas-depresion-20230922165804-nt.html" target="_blank" rel="noopener">Los libros que recomiendan los psicólogos para personas con depresión</a></h2>
@@ -35,6 +40,11 @@ order: 5
 		<p class="press-meta">ABC · 17 de octubre de 2022</p>
 		<h2><a href="https://www.abc.es/bienestar/psicologia-sexo/psicologia/abci-once-peliculas-y-series-recomiendan-psicologos-y-haran-pensar-202210170020_noticia.html" target="_blank" rel="noopener">Once películas y series que recomiendan los psicólogos y que nos harán pensar</a></h2>
 		<p>Recomienda la película «Intocable» como ejemplo de resiliencia y de seguir compartiendo la vida con quien nos ve como somos.</p>
+	</li>
+	<li>
+		<p class="press-meta">ABC · 11 de junio de 2022</p>
+		<h2><a href="https://www.abc.es/bienestar/psicologia-sexo/psicologia/abci-deportes-riesgo-algunas-personas-gustan-y-otras-no-202206110222_noticia.html" target="_blank" rel="noopener">Deportes de riesgo: ¿por qué a algunas personas les gustan y a otras no?</a></h2>
+		<p>Explica la adrenalina, la dopamina y por qué los deportes extremos pueden enganchar.</p>
 	</li>
 	<li>
 		<p class="press-meta">ABC · 24 de abril de 2022</p>
