@@ -1,8 +1,11 @@
 ---
 layout: landing
 title: Preguntas frecuentes
+seo_title: "Preguntas frecuentes | Psicóloga en Málaga"
+meta_description: "Cuándo pedir ayuda psicológica, cuántas sesiones hace falta y en qué se diferencia la psicoterapia del coaching. Responde Clara Ponce Grosso, psicóloga en Málaga."
 description: 'Encuentra las respuestas que buscas'
 image: assets/images/faq.jpg
+image_alt: "Preguntas frecuentes sobre psicoterapia"
 nav-menu: true
 show_tile: true
 order: 4
@@ -28,13 +31,14 @@ order: 4
 		<p>Psicoterapia y Coaching son servicios que se basan en una relación de acompañamiento en el logro de objetivos personales. Esta similitud puede generar confusión entre los clientes interesados, pero aunque el fin sea el mismo, existen diferencias:</p>
 		<p>La psicoterapia es un tratamiento psicológico destinado a un proceso completo de desarrollo personal. Por ello, abarca tanto las técnicas propias del Coaching como otras técnicas que generan una sanación a niveles más profundos del ser, necesarios para generar un cambio duradero y efectivo. El psicólogo tiene competencias de evaluación, intervención y seguimiento más altas que el coach, pudiendo desempeñar las funciones del segundo.</p>
 		<p>El Coaching es un método orientado hacia la adquisición  de estrategias psicológicas que promueven la acción y el compromiso, pero no directamente relacionado con la sanación emocional. La sanación profunda no va implícita en un servicio de Coaching, pero puede surgir a lo largo del proceso. Mi recomendación es realizar dichas sesiones con un profesional de la psicología, por si fuera necesario dicho nivel de profundización y/o surgieran complicaciones durante el proceso. </p>
-		<p>Para más información sobre este tema puedes leer el siguiente post publicado por el Colegio Oficial de Psicólogos: https://www.copmadrid.org/wp/por-que-y-para-que-de-la-psicologia-coaching/</p>
+		<p>Para más información sobre este tema puedes leer el siguiente post publicado por el Colegio Oficial de Psicólogos: <a href="https://www.copmadrid.org/wp/por-que-y-para-que-de-la-psicologia-coaching/" target="_blank" rel="noopener">Por qué y para qué de la psicología coaching</a>.</p>
 		<header class="major">
 			<h2>¿Si voy al psicólogo es porque  estoy "perdiendo la cabeza"?</h2>
 		</header>
 		<p>Son muchas las personas que no van al psicólogo por vergüenza de que los demás se enteren. Lo retrasan por pensar en los demás, cuando lo que necesitan en esos momentos es pensar en sí mismos/as. A nadie le gusta ser señalado/a y la salud mental en nuestro país ha sido estigmatizada durante mucho tiempo.</p>
 		<p>Sin embargo, yo me pregunto ¿quién no ha tenido momentos de flaqueza en su vida? ¿quién no se ha sentido vulnerable, solo/a, enfadado/a con el mundo o inmerso/a en un profundo caos? A veces no es fácil manejar las emociones y necesitamos a un experto que nos guíe.</p>
 		<p>Creo que la psicoterapia es válida para todos los públicos. Igual que acudimos al médico cuando nos duele algo, el psicólogo es un profesional de la salud que sana la mente, el corazón y el alma. Cada vez son más las personas  que se animan a dejar a un lado el miedo al qué dirán y tomar las riendas de su vida con la ayuda de un profesional.</p>
+		<p>Si quieres seguir, puedes ver la <a href="{{ '/psicoterapia-individual.html' | relative_url }}">psicoterapia individual</a>, la <a href="{{ '/psicoterapia-parejas.html' | relative_url }}">terapia de pareja</a> o <a href="{{ '/sobre-mi.html' | relative_url }}">conocerme un poco más</a>.</p>
 	</div>
 </section>
 </div>

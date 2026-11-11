@@ -1,26 +1,129 @@
 <head>
-	<!--<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>-->
-	<title>Psicóloga en Málaga y Online | Adultos y Adolescentes | 1º Cita Online Gratis</title>
+	{% if page.seo_title %}
+		{% assign page_title = page.seo_title %}
+	{% elsif page.title %}
+		{% assign page_title = page.title | append: " | Clara Ponce Grosso" %}
+	{% else %}
+		{% assign page_title = "Psicóloga en Málaga y online | Adultos y adolescentes" %}
+	{% endif %}
+	{% if page.meta_description %}
+		{% assign meta_desc = page.meta_description %}
+	{% elsif page.description %}
+		{% assign meta_desc = page.description %}
+	{% else %}
+		{% assign meta_desc = site.description %}
+	{% endif %}
+	{% assign canonical_url = "https://claraponcegrosso.com" | append: page.url %}
+	{% if page.image %}
+		{% assign share_image = page.image %}
+	{% else %}
+		{% assign share_image = "assets/images/foto.png" %}
+	{% endif %}
+	{% assign share_image_url = "https://claraponcegrosso.com/" | append: share_image %}
+
+	<title>{{ page_title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="{{ meta_desc }}" />
+	{% if page.robots %}<meta name="robots" content="{{ page.robots }}" />{% endif %}
+	<link rel="canonical" href="{{ canonical_url }}" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Clara Ponce Grosso" />
+	<meta property="og:title" content="{{ page_title }}" />
+	<meta property="og:description" content="{{ meta_desc }}" />
+	<meta property="og:url" content="{{ canonical_url }}" />
+	<meta property="og:image" content="{{ share_image_url }}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{{ page_title }}" />
+	<meta name="twitter:description" content="{{ meta_desc }}" />
+	<meta name="twitter:image" content="{{ share_image_url }}" />
+
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<link rel="shortcut icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}">
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
 
-	<link rel="canonical" href="https://www.claraponcegrosso.com">
-	<meta property="og:title" content="Psicóloga en Málaga y Online | Adultos y Adolescentes | 1º Cita Online Gratis">
-	<meta property="og:image" content="https://static.wixstatic.com/media/bc9f1e_07e0eff64d544a6a9b4d526d1f94632d~mv2.jpg/v1/fill/w_2500,h_2076,al_c/bc9f1e_07e0eff64d544a6a9b4d526d1f94632d~mv2.jpg">
-	<meta property="og:image:width" content="2500">
-	<meta property="og:image:height" content="2076">
-	<meta property="og:url" content="https://www.claraponcegrosso.com">
-	<meta property="og:site_name" content="Psicóloga Málaga">
-	<meta property="og:type" content="website">
-	<meta name="fb_admins_meta_tag" content="claraponcegrosso">
-	<meta property="fb:admins" content="claraponcegrosso">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Psicóloga en Málaga y Online | Adultos y Adolescentes | 1º Cita Online Gratis">
-	<meta name="twitter:image" content="https://static.wixstatic.com/media/bc9f1e_07e0eff64d544a6a9b4d526d1f94632d~mv2.jpg/v1/fill/w_2500,h_2076,al_c/bc9f1e_07e0eff64d544a6a9b4d526d1f94632d~mv2.jpg">
-
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "https://claraponcegrosso.com/#website",
+				"url": "https://claraponcegrosso.com/",
+				"name": "Clara Ponce Grosso",
+				"description": {{ site.description | jsonify }},
+				"inLanguage": "es",
+				"publisher": { "@id": "https://claraponcegrosso.com/#consulta" }
+			},
+			{
+				"@type": "WebPage",
+				"@id": {{ canonical_url | append: "#webpage" | jsonify }},
+				"url": {{ canonical_url | jsonify }},
+				"name": {{ page_title | jsonify }},
+				"description": {{ meta_desc | jsonify }},
+				"isPartOf": { "@id": "https://claraponcegrosso.com/#website" },
+				"about": { "@id": "https://claraponcegrosso.com/#clara" },
+				"inLanguage": "es"
+			},
+			{
+				"@type": ["Psychologist", "MedicalBusiness"],
+				"@id": "https://claraponcegrosso.com/#consulta",
+				"name": "Clara Ponce Grosso",
+				"url": "https://claraponcegrosso.com/",
+				"image": "https://claraponcegrosso.com/assets/images/foto.png",
+				"description": "Psicóloga en Málaga y online. Terapia para adultos y adolescentes, individual y de pareja.",
+				"telephone": "+34623137090",
+				"email": {{ site.email | jsonify }},
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "C/ Eslava 14 2º",
+					"postalCode": {{ site.zip_code | append: "" | jsonify }},
+					"addressLocality": {{ site.city | jsonify }},
+					"addressRegion": "Málaga",
+					"addressCountry": "ES"
+				},
+				"areaServed": {
+					"@type": "City",
+					"name": "Málaga"
+				},
+				"identifier": {
+					"@type": "PropertyValue",
+					"name": "Número de colegiada",
+					"value": "M-35786"
+				},
+				"founder": { "@id": "https://claraponcegrosso.com/#clara" },
+				"employee": { "@id": "https://claraponcegrosso.com/#clara" },
+				"sameAs": [
+					"https://www.instagram.com/claraponce.psicologia/",
+					"https://www.linkedin.com/in/clara-ponce-grosso-2a1027150/",
+					"https://www.doctoralia.es/clara-ponce-grosso"
+				]
+			},
+			{
+				"@type": "Person",
+				"@id": "https://claraponcegrosso.com/#clara",
+				"name": "Clara Ponce Grosso",
+				"jobTitle": "Psicóloga General Sanitaria",
+				"url": "https://claraponcegrosso.com/sobre-mi.html",
+				"image": "https://claraponcegrosso.com/assets/images/foto.png",
+				"telephone": "+34623137090",
+				"email": {{ site.email | jsonify }},
+				"workLocation": { "@id": "https://claraponcegrosso.com/#consulta" },
+				"alumniOf": [
+					{ "@type": "CollegeOrUniversity", "name": "Universidad de Sevilla" },
+					{ "@type": "CollegeOrUniversity", "name": "Universidad Pontificia Comillas" }
+				],
+				"knowsAbout": [
+					"Psicoterapia individual",
+					"Terapia de pareja",
+					"Terapia EMDR",
+					"Terapia focalizada en la emoción"
+				]
+			}
+		]
+	}
+	</script>
 </head>

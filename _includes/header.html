@@ -12,10 +12,10 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-		{% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
-		{% assign sorted_tiles = tiles | sort:"order" %}
-		{% for page in sorted_tiles %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
+		{% assign nav_pages = site.html_pages | where: "nav-menu", true %}
+		{% assign sorted_nav = nav_pages | sort: "order" %}
+		{% for page in sorted_nav %}
+		    {% if page.layout != "home" %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
